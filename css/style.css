@@ -25,6 +25,16 @@ row{
 
 }
 
+.photo:hover .nascosta{
+    display: inline-block;
+    z-index: 5;
+
+}
+
+.photo:hover .visibile{
+    display: none;
+}
+
 .photo img:last-of-type{
     display: none;
 }
@@ -85,5 +95,15 @@ row{
     display: block;
 }
 
+.price{
+
+    display: inline-block;
+    color: red;
+}
+.old.price{
+
+    text-decoration-line: line-through;
+    color: black;
+}
 
 /* fine common */
