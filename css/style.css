@@ -47,7 +47,7 @@ row{
 .cuore{
     display: inline-block;
     position: absolute;
-    right: 10px;
+    right: 0px;
     top: 10px;
     padding-top: 5px;
     width: 50px;
