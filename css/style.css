@@ -9,7 +9,23 @@
 .base{
     width: 60%;
     margin: 0 auto;
-    background-color: blue;
 }
 
 /* fine common */
+row{
+    height: 500px;
+    margin: 0 auto;
+}
+.photo{  
+    display: inline-block;
+
+}
+
+.photo :last-child{
+    display: none;
+}
+
+.dimensione{
+    width: 350px;
+
+}
