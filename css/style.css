@@ -19,10 +19,14 @@
 
 
 row{
+    /* float: left; */
     height: 600px;
     margin: 0 auto;
 }
 .photo{ 
+    width: calc(100%/3);
+    float: left;
+    margin: 0 auto;
     position: relative;     
     display: inline-block;
 
