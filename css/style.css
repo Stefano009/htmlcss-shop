@@ -9,6 +9,9 @@
 .base{
     position: relative;
     width: 60%;
+    /* width: calc(100% / 3);
+    float: left; */
+    /* width: calc (100% /3); */
     margin: 0 auto;
     padding-left: 40px;
     padding-top: 20px;
@@ -38,12 +41,17 @@ row{
 .photo img:last-of-type{
     display: none;
 }
+/*colore background della 3 
+.tre{
+    background-color: green;
+} */
 
 .dimensione{
     width: 350px;
 
 }
 
+/* da ottiminizzare */
 .cuore{
     display: inline-block;
     position: absolute;
